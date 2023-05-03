@@ -1,0 +1,646 @@
+*{
+    margin:0;
+}
+button{
+    cursor: pointer;
+}
+a{
+    color: #333333;
+    cursor: pointer;
+}
+.header a:visited{
+    color: #333333;
+}
+.header{
+    position: absolute;
+    width: 1440px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -2px 0px #EFF5FB;;
+}
+.header a{
+    text-decoration: none;
+    color: #333333;
+}
+.logo{
+    position: absolute;
+    width: 51px;
+    height: 36px;
+    left: 120px;
+    top: 20px;
+}
+.y{
+    position: absolute;
+    left: 0%;
+    right: 73.86%;
+    top: 0.22%;
+    bottom: 48.15%;
+}
+.o{
+    position: absolute;
+    left: 26.75%;
+    right: 43.51%;
+    top: 0%;
+    bottom: 61.6%;
+}
+.u{
+    position: absolute;
+    left: 59.9%;
+    right: 17.33%;
+    top: 0.15%;
+    bottom: 61.58%;
+}
+.t{
+    position: absolute;
+    left: 13.58%;
+    right: 67.73%;
+    top: 51.12%;
+    bottom: -0.03%;
+}
+.a{
+    position: absolute;
+    left: 34.36%;
+    right: 35.93%;
+    top: 61.6%;
+    bottom: 0%;
+}
+.l{
+    position: absolute;
+    left: 67.91%;
+    right: 26.73%;
+    top: 45.82%;
+    bottom: 0.03%;
+}
+.k{
+    position: absolute;
+    left: 77.35%;
+    right: -0.02%;
+    top: 45.82%;
+    bottom: 0.01%;
+}
+.button{
+    display: flex;
+    padding: 14px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 230px;
+    height: 48px;
+    right: 120px;
+    top: 14px;
+
+    background: #E3F5F5;
+    border-radius: 4px;
+    color: #03B2A5;
+    border: none;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    
+    position: absolute;
+    width: 71.88%;
+    height: 18px;
+    left: 126px;
+    top: 92px;
+}
+.container2 a{
+    text-decoration: none;
+    color: #333333;
+}
+.heading{
+    position: absolute;
+    width: 47.92%;
+    height: 168px;
+    left: 120px;
+    top: 135px;
+}
+.autor{
+    position: absolute;
+    width: 34.78%;
+    height: 20px;
+    left: 120px;
+    top: 340px;
+}
+.image-water{
+    position: absolute;
+    width: 47.92%;
+    height: 331px;
+    top: 392px;
+    left: 120px;
+}
+.content{
+    display: inline;
+    flex-direction: column;
+    position: absolute;
+    gap: 14px;
+    top: 747px;
+    left: 120px;
+    width: 38.9%;
+    height: 274px;
+}
+.content a{
+    color: #333333;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    width: 47.92%;
+    height: 192px;
+    left: 120px;
+    top: 1045px;
+}
+.qoutation{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 47.92%;
+    height: 162px;
+    left: 120px;
+    top: 1255px;
+    
+    background: #F3F7FE;
+    border-radius: 16px;
+}
+.podqoutation{
+    position: absolute;
+    width: 84%;
+    top: 38px;
+}
+.goutation-marks{
+    position: absolute;
+    width: 8.12%;
+    height: 36px;
+    left: 24px;
+    top: 24px;
+}
+.section-2-text-one{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    position: absolute;
+    width: 47.92%;
+    height: 256px;
+    left: 120px;
+    top: 1456px;
+}
+li::marker{
+    color: #03B2A5;
+}
+.two-men-container{
+    position: absolute;
+    width: 47.92%;
+    height: 365px;
+    top: 1743px;
+    left: 120px;
+}
+.two-men-image{
+    width: 100%;
+    height: 331px;
+}
+.section-2-text-two{
+    position: absolute;
+    top: 2132px;
+    left: 120px;
+    height: 908px;
+    width: 47.92%;
+}
+.text-article-one{
+    position: absolute;
+    height: 96px;
+}
+.quote-in-italics{
+    position: absolute;
+    width: 100%;
+    height: 168px;
+    top: 120px;
+    background-image: url(../images/Vector_кеся-меся.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.quote-in-italics p{
+    position: absolute;
+    left: 102px;
+}
+.text-article-two{
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    top: 312px;
+}
+.redhead-women-and-text{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 24px;
+    width: 100%;
+    height: 380px;
+    top: 432px;
+}
+.text-article-three{
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    top: 836px;
+}
+.section-3{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 45%;
+    top: 3088px;
+    left: 120px;
+
+    background: #FEFAEC;
+    border-radius: 16px;
+}
+
+.section-4 h3{
+    padding-bottom: 16px;
+}
+.section-4{
+    position: absolute;
+    width: 47.92%;
+    top: 3336px;
+    left: 120px;
+}
+.hands-image-and-text{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    height: 174px;
+    position: absolute;
+    top: 272px;
+}
+.section-5{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 24px;
+    gap: 8px;
+    width: 100%;
+    top: 590px;
+
+    background: #FFF3EB;
+    border-radius: 16px;
+}
+.two-image-and-text{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    position: absolute;
+    width: 47.92%;
+    height: 451px;
+    top: 838px;
+}
+.section-6 .section-7{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 23.06%;
+    height: 451px;
+}
+.lightning{
+    position: absolute;
+    width: 12.5%;
+    height: 32px;
+    top: 1313px;
+    left: 256.13px;
+}
+.text-praza{
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    top: 470px;
+}
+.text-plaza{
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    top: 1369px;
+}
+.section-8{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 100%;
+    top: 1489px;
+    border-radius: 16px;
+    background: rgba(3, 178, 165, 0.1);
+}
+.links{
+    padding-top: 24px;
+    padding-bottom: 48px;
+    position: absolute;
+    width: 47.92%;
+    height: 44px;
+    top: 5029px;
+    left: 120px;
+}
+.first-links{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    position: absolute;
+    left: 0px;
+    top: 24px;
+    width: 100%;
+    height: 20px;
+}
+.second-links{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    position: absolute;
+    left: 0px;
+    top: 48px;
+    width: 100%;
+    height: 20px;
+
+}
+.links a{
+    text-decoration: none;
+    color: #2963A3
+}
+.hr{
+    position: absolute;
+width: 47.92%;
+height: 0px;
+left: 120px;
+top: 5144px;
+
+border: 1px solid #DEDEDE;
+}
+.problem{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 348px;
+    height: 280px;
+    top: 5194px;
+}
+.problem h1{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+.problem p{
+    position: absolute;
+    top: 136px;
+    left: 120px;
+}
+.problem button{
+    position: absolute;
+    bottom: 0px;
+    left: 120px;
+    width: 238px;
+    height: 60px;
+    padding: 20px 24px;
+    background: #16C8BB;
+    border-radius: 4px;
+    border: none;
+}
+.record{
+    position: absolute;
+    width: 282px;
+    height: 512px;
+    left: 1038px;
+    top: 164px;
+
+    background: #E6F0FD;
+    border-radius: 16px;
+    background-image: url(../images/Frame_family.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 24px;
+}
+.record-text{
+    position: absolute;
+    width: 234px;
+    height: 162px;
+    top: 254px;
+    left: 24px;
+}
+.record-button button{
+    position: absolute;
+    top: 440px;
+    left: 24px;
+    width: 234px;
+    height: 48px;
+
+    background: #35B3A9;
+    border: none;
+    border-radius: 4px;
+}
+.psychologist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    position: absolute;
+    width: 282px;
+    height: 481px;
+    left: 1038px;
+    top: 700px;
+
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 16px;
+}
+.psychologist-button-two{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+
+position: absolute;
+width: 105px;
+height: 56px;
+left: 16px;
+top: 16px;
+}
+.psychologist-button-two button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 6px;
+    height: 24px;
+    background: rgba(243, 244, 248, 0.7);
+    border-radius: 6px;
+    border: none;
+}
+.psychologist-info img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 24px;
+    left: 81px;
+    border-radius: 50%;
+}
+.psychologist-info-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    position: absolute;
+    width: 250px;
+    height: 76px;
+    top: 160px;
+    left: 16px;
+}
+.experience{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    gap: 8px;
+    box-shadow: 0px 1px 0px #DEDEDE;
+}
+.psychologist-button-learn button{
+    position: absolute;
+    top: 397px;
+    left: 16px;
+    width: 250px;
+    height: 48px;
+
+    background: #35B3A9;
+    border: none;
+    border-radius: 4px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    top: 269px;
+    left: 16px;
+
+    width: 250px;
+    height: 112px;
+}
+.list ul{
+    padding-left: 16px;
+}
+.image{
+    position: absolute;
+    width: 282px;
+    height: 292px;
+    left: 1038px;
+    top: 1209px;
+    background-color: #2963A3;
+    background-image: url(../images/Image_gift0.5.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.image h2{
+    position: absolute;
+    width: 234px;
+    height: 80px;
+    left: 24px;
+    top: 60px;
+    text-align: center;
+}
+.image .gift1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 0px 0px 0px 16px;
+    z-index: 1;
+}
+.image .gift2{
+    position: absolute;
+    right: 12px;
+    top: 151px;
+}
+.image .gift3{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 0px 0px 16px 0px;
+    z-index: 1;
+}
+.course{
+    position: absolute;
+    top: 1543px;
+    left: 1038px;
+    width: 282px;
+    height: 304px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 24px;
+}
+.course-title{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    position: absolute;
+    width: 158px;
+    height: 32px;
+    top: 32px;
+    left: 32px;
+}
+.course-text{
+    position: absolute;
+    width: 196px;
+    height: 80px;
+    top: 80px;
+    left: 32px;
+}
+.course-price{
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    top: 176px;
+    left: 32px;
+}
+.course button{
+    position: absolute;
+    width: 108px;
+    height: 48px;
+    top: 224px;
+    left: 32px;
+    background: #35B3A9;
+    border-radius: 4px;
+    border: none;
+}
+.course .gift1{
+    position: absolute;
+    top: 219px;
+    left: 165px;
+}
+
+.course .gift2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 0px 0px 16px 0px;
+}
+.image-problems{
+    position: absolute;
+    left: 651px;
+    background-image: url(../images/Vector_fonproblem.png);
+    background-repeat: no-repeat;
+}

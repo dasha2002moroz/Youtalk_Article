@@ -1,0 +1,231 @@
+@font-face {
+    font-family: Montserrat; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+    src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf);
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+    src: url(../fonts/Montserrat/static/Montserrat-MediumItalic.ttf);
+}
+*{
+    font-family: 'Montserrat';
+}
+body{
+    color: #333333;
+}
+.container1{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+}
+.header .button{
+    font-size: 16px;
+    color: #03B2A5;
+}
+.container2{
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(51, 51, 51, 0.7);
+}
+.heading{
+    font-size: 24px;
+    line-height: 56px;
+}
+.autor{
+    font-size: 14px;
+    line-height: 20px;
+    color: #494949;
+}
+.h5-content{  
+    font-size: 16px;
+}
+.content{
+    font-weight: 500;
+    line-height: 24px;
+}
+h3.h3-content{
+    font-size: 24px;
+}
+.section-1{
+    font-weight: 500;
+    line-height: 24px;
+}
+.qoutation{
+    font-style: italic;
+    line-height: 24px;
+    width: 642px;
+}
+p.new-autor{
+    font-style: normal;
+    left: 0;
+}
+.section-2-text-one ul{
+    font-weight: 500;
+    line-height: 24px;
+}
+.two-men-container p{
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.25px;
+    color: #868686;
+}
+.text-article-one{
+    font-weight: 500;
+    line-height: 24px;
+}
+.quote-in-italics p{
+    font-style: italic;
+    line-height: 24px;
+    width: 70%;
+    text-align: center;
+}
+.text-article-two{
+    font-weight: 500;
+    line-height: 24px;
+}
+.redhead-women-and-text p{
+    font-weight: 500;
+    line-height: 24px;
+}
+.text-article-three{
+    font-weight: 500;
+    line-height: 24px; 
+}
+.section-3 h5{
+    font-size: 16px;
+    line-height: 24px;
+}
+.section-3 p{
+    font-weight: 500;
+    line-height: 24px;
+    width: 100%;
+}
+.section-4 h3{
+    font-size: 24px;
+    line-height: 32px;
+}
+.section-4{
+    font-weight: 500;
+    line-height: 24px;
+}
+.section-5 h5{
+    font-size: 16px;
+}
+.section-8 h5{
+    font-size: 16px;
+}
+.links{
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #2963A3;
+}
+.problem h1{
+    font-size: 48px;
+}
+.problem p{
+    font-size: 18px;
+    line-height: 26px;
+}
+.problem button{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/* ОКНО ЗАПИСИ */
+.record{
+    text-align: center;
+}
+.record-text h3{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+}
+.record-text p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-self: stretch;
+}
+.record-button button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* ОКНО ПСИХОЛОГА */
+.psychologist-button-learn button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.psychologist-button-two button{
+    font-size: 12px;
+    letter-spacing: 0.25px;
+}
+.psychologist-info-information .lili{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+.psychologist-info-information .nut{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.psychologist-info-information .experience{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A2A7B1;
+}
+.psychologist-info-information .list-title{
+    font-size: 16px;
+    line-height: 24px;
+}
+.list ul{
+    font-size: 14px;
+    line-height: 20px;
+}
+.list-title{
+    font-size: 16px;
+    line-height: 24px;
+}
+.image h2{
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.course-title h3{
+    font-size: 24px;
+    line-height: 32px;
+    color: #2963A3;
+}
+.course-title h4{
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #2963A3;
+}
+.course-text{
+    font-size: 14px;
+    line-height: 20px;
+    color: #011632;
+}
+.course-price{
+    font-weight: 700;
+    font-size: 24px;
+}
+.course button{
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #FFFFFF;
+}
+.main-menu{
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #FFFFFF;
+}
